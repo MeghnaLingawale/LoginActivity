@@ -69,7 +69,7 @@ public class LoginActivity extends AppCompatActivity {
                 if (UserName.equalsIgnoreCase("user123") && Pwd.equals("user@123")) {
                     Intent MainIntent = new Intent(LoginActivity.this, LoginActivity.class);
                     startActivity(MainIntent);
-                    Toast.makeText(LoginActivity.this, "You are Sign in Successfuly.", Toast.LENGTH_LONG).show();
+                    Toast.makeText(LoginActivity.this, "You are Sign in Successfuly.... Welcome", Toast.LENGTH_LONG).show();
                 } else {
                     Toast.makeText(LoginActivity.this, "Sorry,User Name or Password is incorrect.", Toast.LENGTH_LONG).show();
                 }
